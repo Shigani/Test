@@ -32,8 +32,11 @@ li a {
 
 #name {
   font-family: 'sansita';
-  font-size: 60px;
-  margin-left:250px;
+  font-size: 54px;
+}
+
+.kito-1 {
+  margin-left:300px;
 }
 
 .top {
@@ -323,14 +326,18 @@ button {
   }
 
   .nav {
-    padding: 0px;
+    padding: 20px 0;
     width: 100%;
   }
 
   #name {
     font-family: 'sansita';
-    font-size: 60px;
+    font-size: 30px;
     margin: 0;
+  }
+
+  .kito-1 {
+    margin: 0px;
   }
 
   .icon {
@@ -389,7 +396,6 @@ button {
   .kito {
     float: none;
     text-align: center;
-    font-size: 30px;
   }
 
   input[type=text] {
@@ -413,9 +419,9 @@ button {
   }
 
   .hamburger {
-    float: right;
     display: inline;
-    font-size: 50px;
+    float: right;
+    font-size: 30px;
   }
 
   .form {
