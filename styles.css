@@ -252,7 +252,10 @@ li a {
 }
 
 form {
+  display: flex;
   padding-top: 15px;
+  flex-direction: row;
+  float: right;
 }
 
 input[type=text] {
@@ -265,7 +268,6 @@ input[type=text] {
 }
 
 button {
-  float: right;
   padding: 11px;
   font-family: 'Open Sans';
   font-size: 17px;
@@ -278,11 +280,11 @@ button {
 }
 
 .join {
-  float: right;
   font-family: 'Open Sans'; 
   font-size: 15px; 
   font-weight: 700;
   padding: 15px 10px;
+  margin-left: 800px;
 }
 
 .footlink {
@@ -302,7 +304,7 @@ button {
 .kito {
   margin: 0; 
   font-weight: 800; 
-  float: left
+  float: left;
 }
 
 .hamburger {
@@ -392,7 +394,7 @@ button {
 
   input[type=text] {
     float: none;
-    width: 95%;
+    width: 100%;
     padding-right: 0px;
     margin-left: 5px;
   }
@@ -404,10 +406,10 @@ button {
   }
   
   .join {
-    clear: left;
+    clear: both;
     float: none;
     text-align: center;
-    margin-top: 20px;
+    margin: 0px;
   }
 
   .hamburger {
@@ -419,6 +421,7 @@ button {
   .form {
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 }
 
